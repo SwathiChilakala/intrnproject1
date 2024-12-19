@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swathi Clothing E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="brand-name">Swathi Clothing </div>
+            <div class="header-buttons">
+                <button class="cart-button" onclick="window.location.href='cart.html'">🛒 <span class="item-count">0</span></button>
+
+                <button class="login-button" onclick="window.location.href='loginandregister.html'">Login/Register</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html"><button>Home</button></a></li>
+            <li><a href="men.html"><button>Men</button></a></li>
+            <li><a href="women.html"><button>Women </button></a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero-banner">
+            <h1>Discover Your Style</h1>
+            <p>Shop the latest trends at swathi Clothing</p>
+            <button onclick="window.location.href='shop.html'">Shop Now</button>
+        </section>
+
+       
+
+        <section class="best-sellers">
+            <h2>Best Sellers</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="assets/women/Lehenga/Lehenga blue.jpg" alt="Example Product">
+                    <h3>Blue Lehenga</h3>
+                    <p>850 Rs</p>
+                    <button class="add-to-cart" onclick="addToCart({name: 'Example Product', price: 850})">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/men/formal shirt/Formal Shirt black.jpg" alt="Example Product">
+                    <h3>Black Formal Shirt</h3>
+                    <p>850 Rs</p>
+                    <button class="add-to-cart" onclick="addToCart({name: 'Example Product', price: 850})">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/women/Lehenga/Lehenga white.jpg" alt="Example Product">
+                    <h3>White Lehenga</h3>
+                    <p>850 Rs</p>
+                    <button class="add-to-cart" onclick="addToCart({name: 'Example Product', price: 850})">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/men/blazer/Blazer white.jpg" alt="Example Product">
+                    <h3>White Blazer</h3>
+                    <p>850 Rs</p>
+                    <button class="add-to-cart" onclick="addToCart({name: 'Example Product', price: 850})">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="features">
+            <div class="feature">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.VDTFrvFnkmPEmY5dJojXxQHaD_&pid=Api&P=0&h=180" alt="" class="featureIcon medium">
+                <div class="featureDetails">
+                    <span class="featureTitle">FREE SHIPPING</span>
+                    <span class="featureDesc">Free worldwide shipping on all orders.</span>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.c7KjGQi6lLXsae9eUQfTTQHaHa&pid=Api&P=0&h=180" alt="" class="featureIcon medium">
+                <div class="featureDetails">
+                    <span class="featureTitle">15 DAYS RETURN</span>
+                    <span class="featureDesc">No questions asked easy return and refund.</span>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://static.vecteezy.com/system/resources/previews/019/898/722/original/phone-call-3d-icon-free-png.png" alt="" class="featureIcon medium">
+                <div class="featureDetails">
+                    <span class="featureTitle">Contact Us</span>
+                    <span class="featureDesc">Keep in touch via email and support system.</span>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Follow Us</h1>
+            <div class="fIcons">
+                <img src="https://images.vexels.com/media/users/3/223136/isolated/preview/984f500cf9de4519b02b354346eb72e0-facebook-icon-social-media-by-vexels.png"height="30" width="30" alt="Twitter"  alt="Facebook" class="fIcon">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Twitter-512.png" height="30" width="30" alt="Twitter" class="fIcon">
+                <img src="https://freepngimg.com/thumb/social_media/74310-instagram-icons-media-computer-social-logo.png" height="30" width="30" alt="Instagram" class="fIcon">
+                <img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-7.png" height="30" width="30" alt="WhatsApp" class="fIcon">
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <span class="copyright">@swathi chilakala All rights reserved. 2024.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
