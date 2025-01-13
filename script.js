@@ -48,6 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (registerForm) {
         registerForm.style.display = 'none';
-        registerForm.addEventListener('submit', (event) => validateForm(event, 'register'));
+        registerForm.addEventListener('submit', (event) => validateForm(event ,'register'));
     }
 });
